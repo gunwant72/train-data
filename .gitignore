@@ -1,1 +1,4 @@
 ./data/*
+# IGNORE all the files in the data directory
+
+/data/*
