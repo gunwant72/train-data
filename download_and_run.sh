@@ -21,7 +21,7 @@ rm -r ./data/*
 # git push
 git add .
 git commit -m "update result"
-git push
+git push origin master
 
 echo "Job done"
  
