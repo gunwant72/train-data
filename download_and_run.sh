@@ -11,18 +11,17 @@ pip install -r requirements.txt
 python caption.py
 
 for key in "${file_keys[@]}"; do
-    zip -r "./result/$key.zip" "./data/$key"
+    zip -r "./result/$key.zip" "./data/$key" > /dev/null 2>&1
+
 done
 
 # delete the content of the data folder
 rm -r ./data/*
 
-# git
+# git push
 git add .
-git commit -m "Add result images"
-git push origin master
+git commit -m "update result"
+git push
 
-echo "All done!"
-
-
+echo "Job done"
  
