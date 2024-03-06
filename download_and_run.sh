@@ -1,10 +1,10 @@
 #!/bin/bash
 # Array of file keys
-file_keys=( window_side_final
-frozen_mountains_final
-floating_flowers_final
-park_final
-limestone_cave_final )
+file_keys=( mountain_valley_v1
+paper_art_v1
+satin_v1
+soapy_water_v1
+tapered_cloth_v1)
 # Download files from S3
 for key in "${file_keys[@]}"; do
     aws s3 cp "s3://unstudio-product-photoshoots/dataset/Lora-Categories/$key" "./data/$key" --recursive
