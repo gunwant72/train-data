@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=( craftmill)
+file_keys=( craftsmill)
 # Download files from S3
 for key in "${file_keys[@]}"; do
     aws s3 cp "s3://unstudio-product-photoshoots/dataset/Lora-Categories/$key" "./data/$key" --recursive
