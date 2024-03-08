@@ -8,9 +8,9 @@ ribbon_essence_final
 natural_escape_final 
 hydrangea_luxury_final)
 # Download files from S3
-for key in "${file_keys[@]}"; do
-    aws s3 cp "s3://unstudio-product-photoshoots/dataset/Lora-Categories/$key" "./data/$key" --recursive
-done
+# for key in "${file_keys[@]}"; do
+#     aws s3 cp "s3://unstudio-product-photoshoots/dataset/Lora-Categories/$key" "./data/$key" --recursive
+# done
 
 # Run main.py (replace 'main.py' with the actual name of your Python script)
 pip install -r requirements.txt
