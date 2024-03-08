@@ -1,8 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(streamer_decoration_final_v1
-satin_jewels_final_v1
-launch_shoot_final_v1
+file_keys=(craftsmill
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
