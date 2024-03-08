@@ -1,7 +1,8 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(strawberry-platform   
-    airport_v1
+file_keys=(almond_rocks
+    desert_flower
+    blue mist
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
