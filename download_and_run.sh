@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(hydrangea_luxury_final
+file_keys=(strawberry-platform
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
