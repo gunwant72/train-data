@@ -1,9 +1,10 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(flower_filled_arch_final
-flower_top_final
-glowing_arch_final
-two_flowers_final
+file_keys=(clouds
+    sunlight_cave
+    front_rope
+    flower_petals
+    mossy_rock_mountain
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
