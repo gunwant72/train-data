@@ -1,19 +1,7 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(waterfall
-wooden_table
-white_rock
-pink_flowers
-eiffel_tower
-wooden_log
-rainy_forest
-louvre
-lush_green
-glitters
-Dicentra_spectabilis_dry
-Dicentra_spectabilis_water
-white_flower_monochrome
-diya_v1
+file_keys=(dicentra_spectabilis_dry
+dicentra_spectabilis_water
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
