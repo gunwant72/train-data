@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(heaven_glow
+file_keys=(twilight_tastings_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
