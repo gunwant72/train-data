@@ -1,7 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(dicentra_spectabilis_dry
-dicentra_spectabilis_water
+file_keys=(earthy_minimal_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
