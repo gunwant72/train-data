@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(glitters_v1
+file_keys=(top_rope_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
