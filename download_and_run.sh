@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(flower_filled_arch_v1
+file_keys=(airport_v2
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
