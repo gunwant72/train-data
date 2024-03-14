@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(earthy_minimal_v1
+file_keys=(flower_filled_arch_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
