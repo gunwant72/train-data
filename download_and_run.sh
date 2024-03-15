@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(flower_arch
+file_keys=(swing_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
