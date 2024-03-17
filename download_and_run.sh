@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(lush_green_v1
+file_keys=(coaster_minimal_v2
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
