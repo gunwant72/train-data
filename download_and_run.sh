@@ -1,10 +1,10 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(graffiti
-desert_night
-butterfly
-dusk_mountains_final
-newyork_streets
+file_keys=(namibian_desert
+balcony
+among_clouds
+parsian_street
+wood_snow
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
