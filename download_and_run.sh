@@ -1,6 +1,10 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(coaster_minimal_v2
+file_keys=(greenery
+dark_sand
+salty_mushrooms
+palm_shadows
+tray_flowers
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
