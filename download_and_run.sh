@@ -1,6 +1,19 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(greenery_v1
+file_keys=(soap_holder
+glitter_ribbons
+spectrum
+yellow_couch
+forest_view
+bokeh
+blur_grey
+holi_lying
+children_room
+holi_standing
+outdoor_night
+pot_spot
+pond
+on_rock
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
