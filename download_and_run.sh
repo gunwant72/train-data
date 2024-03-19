@@ -1,9 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(holi_road
-aesthetic_holi
-holi_wooden
-holi_platform
+file_keys=(holi_wooden
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
