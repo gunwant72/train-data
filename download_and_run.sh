@@ -1,6 +1,10 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(miniature_legos_v1
+file_keys=(misty_dragons
+foggy_castle
+iceberg
+greek_sculptures
+sea_on_clouds
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
