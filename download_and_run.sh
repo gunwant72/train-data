@@ -1,6 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(miniature_legos
+file_keys=(holi_road_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
