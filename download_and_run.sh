@@ -1,11 +1,14 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(living_room_v1
-matte_blue
-office_v1
-red_velvet
-rocky_living_room
-simple_orange
+file_keys=(illusions
+old_paintings
+fantasy_forest
+ancient_greek
+trunk
+plant_patterns
+moon_set
+glacier_planet
+red_brick
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
