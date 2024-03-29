@@ -1,7 +1,6 @@
 #!/bin/bash
 # Array of file keys
-file_keys=(hillside
-street_cars
+file_keys=(chill_ice_v1
 )
 # Download files from S3
 for key in "${file_keys[@]}"; do
